@@ -1,0 +1,1 @@
+basedir = "/".join(__file__.split("/")[:-2])
