@@ -264,7 +264,9 @@ def main(
     os.makedirs(os.path.dirname(phot_path), exist_ok=True)
     if not os.path.exists(phot_path):
         make_phot_file(in_cat_path, filter_names, filter_codes, phot_path)
-    perform_fit(phot_path, out_cat_path, out_filt_path, out_phot_path, template_set)
+    os.makedirs(os.path.dirname(out_cat_path), exist_ok=True)
+    if not os.path.exists(out_cat_path):
+        perform_fit(phot_path, out_cat_path, out_filt_path, out_phot_path, template_set)
 
 
 if __name__ == "__main__":

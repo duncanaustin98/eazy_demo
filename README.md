@@ -14,9 +14,8 @@ conda create -n {env_name} # Create a virtual environment with conda
 conda activate {env_name} # Activate the conda environment
 ```
 
-### 2: git clone this repo and install
+### 2: git clone this repo and install required packages
 ```bash
 git clone https://github.com/duncanaustin98/eazy_demo.git
 cd eazy_demo
-pip install . # Install eazy-demo
 ```
