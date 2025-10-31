@@ -19,4 +19,4 @@ conda activate {env_name} # Activate the conda environment
 git clone https://github.com/duncanaustin98/eazy_demo.git
 cd eazy_demo
 pip install . # Install eazy-demo
-```bash
+```
